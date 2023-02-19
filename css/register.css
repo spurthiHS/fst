@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.head{
+    width: 100%;
+    height: auto;
+    font-size: 23px;
+}
+.head h3{
+    padding-left: 5%;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 3vh;
+    font-weight: bold;
+    padding-bottom: 3vh;
+}
+form{
+    padding-left: 5%;
+}
+form input[type="text"]{
+    width: 15%;
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    line-height: 50px;
+    color: #333333;
+    border-bottom: 2px solid black;
+}
+.message{
+      width: 30%;
+      height: auto;
+      display: block;
+      font-size: 15px;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+}
+form input[type="submit"]
+{
+    width: 13%;
+    height: auto;
+    background: black;
+    background: transparent;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+}
+form input[type="submit"]:hover{
+    background: black;
+    color: white;
+}
+form button
+{
+    width: 13%;
+    height: auto;
+    background: black;
+    background: transparent;
+    color: black;
+    outline: none;
+    border: 2px solid black;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px 0 5px 0;
+}
+form button:hover{
+    background: black;
+    color: white;
+}

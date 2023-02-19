@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+.phphead{
+    font-size:25px;
+    padding-left:5%;
+    padding-bottom: 2vh;
+    
+}
+.phpline{
+    width:30%;
+    height:2px;
+    background:gold;
+    margin-left:5%;
+}
+.phplist{
+    padding-left:5%;
+    font-size:20px;
+    padding-top: 2vh;
+}
+.phplist li{
+    list-style:none;
+    line-height: 30px;
+}
+.phplist li span{
+    font-weight: bolder;
+    width: 10%;
+}
+/*__________________________________________---------------------____________--------------______________-------*/
+.nav{
+    width: 100%;
+    height: 10vh;
+    padding-left: 5%;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: auto;
+    padding-top: 3vh;
+    font-size: 25px;
+    font-family: 'Gruppo', cursive;
+}
+.navs{
+    width: 80%;
+    height: auto;
+    text-align: right;
+}
+.navs button{
+    width: 41px;
+    height: auto;
+    font-size: 31px;
+    outline: none;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-right: 5%;
+    background: white;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 5%;
+}
+.bnline{
+    width: 10%;
+    height: 5px;
+    background: black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+form input[type="text"]{
+    width: 20%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+}
+form input[type="radio"]
+{
+    color: black;
+    margin-top: 2vh;
+}
+form input[type="submit"]
+{
+    width: 10%;
+    height: auto;
+    color: white;
+    background:black;
+    outline: none;
+    border: black 2px solid;
+    display: block;
+    font-size: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+form input[type="submit"]:hover
+{
+    background: transparent;
+    color: black;
+}
+.phpbanner{
+    width: 90%;
+    padding-left: 5%;
+    display: flex;
+}
+.phpf1{
+    width: 50%;
+    height: 50vh;
+    border-right: 2px solid goldenrod;
+    text-align: center;
+    font-size: 33px;
+    padding-top: 20vh;
+}
+.phpf2{
+    width: 50%;
+    height: auto;
+    font-size: 25px;
+    padding-left: 3%;
+}
+.f2line{
+    width: 30%;
+    height: 3.5px;
+    background: black;
+    margin: 2vh 0 2vh 0;
+}
+.phpf2 li{
+    font-size: 19px;
+    line-height: 50px;
+}
+.phpf2 li span{
+    width: 50%;
+    font-weight: bold;
+}
+git clone https://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@github.com/spurthiHS/1st.git

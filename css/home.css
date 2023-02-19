@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background: goldenrod;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background:white;
+    border-radius: 0 0 451px 0;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.logo{
+    width: 50%;
+    font-family: 'Gruppo', cursive;
+    font-size: 30px;
+    padding-left: 5%;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+.navs{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navs li{
+    font-size: 15px;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    padding-top:4vh;
+    font-weight: bold;
+}
+.navs li a{
+    color: black;
+}
+.infobanner{
+    width: 80%;
+    height: 70vh;
+    margin-left: 10%;
+    display: flex;
+    margin-top:10vh;
+}
+.info1{
+    width: 50%;
+    height: 50vh;
+    border-right: 2px solid goldenrod;
+    padding-right: 5%;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 10%;
+    padding-top: 10vh;
+}
+.infohead{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    padding-bottom: 2vh;
+}
+.line{
+    width: 55%;
+    height: 2px;
+    background: black;
+    margin-bottom: 2vh;
+}
+.info{
+    width: 75%;
+    height: auto;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom: 2vh;
+}
+.info1 a input[type="submit"]
+{
+    width: 40%;
+    font-size: 17px;
+    font-family: 'Gruppo', cursive;
+    outline: none;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.info1 a input[type="submit"]:hover{
+    background-color: transparent;
+    color: black;
+}
+.info2{
+    width: 50%;
+    padding-top: 10vh;
+}
+.i2head{
+    padding-left: 5%;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    padding-bottom: 2vh;
+    font-family: 'Quicksand', sans-serif;
+}
+.info2 .line1{
+    width: 60%;
+    height: 2px;
+    background: black;
+    margin-bottom: 2vh;
+    margin-left: 5%;
+}
+.p1{
+    font-size: 20px;
+    padding-left: 5%;
+
+}
+.p2{
+    font-size: 16px;
+    padding-bottom: 2vh;
+    line-height: 20px;
+    padding-top: 2px;
+    padding-left: 5%;
+}
+.info2 span{
+    font-size: 45px;
+    padding-left: 4%;
+}
+.info2 span:hover{
+    color: goldenrod;
+}
