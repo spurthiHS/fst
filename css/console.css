@@ -387,3 +387,17 @@ body
     background: green;
     color: white;
 }
+.news1{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.news1 .head{
+    width: 100%;
+    height: 2vh;
+}
+.news1 img{
+    width: 100%;
+    height: auto;
+    
+}
